@@ -1,0 +1,5 @@
+com\gxj\service\impl\UserServiceImpl.class
+com\gxj\service\UserService.class
+com\gxj\dao\UserDao.class
+com\gxj\controller\TestController.class
+com\gxj\model\User.class
