@@ -55,4 +55,18 @@ public class UserDaoTest extends BaseJunit4Test {
         int res = userDao.update(user);
         System.out.println(res);
     }
+
+    @Test
+    public  void testDelete(){
+        int id = 4;
+        int res = userDao.delete((id));
+        System.out.println(res);
+    }
+
+    @Test
+    public void testDeleteByName(){
+        String name = "ccc";
+        int res = userDao.deleteByName(name);
+        System.out.println(res);
+    }
 }
