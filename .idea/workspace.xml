@@ -8,9 +8,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c131a65f-7b2f-4396-a711-94fd8fc1c3f5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gxj/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gxj/dao/UserDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gxj/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gxj/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/com/gxj/controller/test/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/com/gxj/controller/test/UserDaoTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+            <state relative-caret-position="288">
+              <caret line="42" column="30" lean-forward="true" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -37,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gxj/dao/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+            <state relative-caret-position="458">
+              <caret line="26" column="80" selection-start-line="26" selection-start-column="80" selection-end-line="26" selection-end-column="80" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/test/com/gxj/controller/test/UserDaoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1296">
-              <caret line="61" column="39" lean-forward="true" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="39" />
+            <state relative-caret-position="362">
+              <caret line="72" column="9" lean-forward="true" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,9 +92,9 @@
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/test/com/gxj/controller/test/BaseJunit4Test.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gxj/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/main/test/com/gxj/controller/test/UserDaoTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/test/com/gxj/controller/test/UserDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gxj/dao/UserDao.java" />
       </list>
     </option>
   </component>
@@ -282,7 +282,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserDaoTest.testFindAll">
+  <component name="RunManager" selected="JUnit.UserDaoTest.testFindByIdAndPassword">
     <configuration name="UserDaoTest.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ssmproject" />
       <extension name="coverage">
@@ -331,7 +331,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserDaoTest.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserDaoTest.testFindByIdAndPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ssmproject" />
       <extension name="coverage">
         <pattern>
@@ -341,7 +341,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.gxj.controller.test" />
       <option name="MAIN_CLASS_NAME" value="com.gxj.controller.test.UserDaoTest" />
-      <option name="METHOD_NAME" value="testInsert" />
+      <option name="METHOD_NAME" value="testFindByIdAndPassword" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -521,19 +521,19 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.Tomcat 9.0.21" />
-      <item itemvalue="JUnit.UserDaoTest.testInsert" />
       <item itemvalue="JUnit.UserDaoTest.testUpdate" />
       <item itemvalue="JUnit.UserDaoTest.testDelete" />
       <item itemvalue="JUnit.UserDaoTest.testDeleteByName" />
       <item itemvalue="JUnit.UserDaoTest.testFindAll" />
+      <item itemvalue="JUnit.UserDaoTest.testFindByIdAndPassword" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserDaoTest.testFindByIdAndPassword" />
         <item itemvalue="JUnit.UserDaoTest.testFindAll" />
         <item itemvalue="JUnit.UserDaoTest.testDeleteByName" />
         <item itemvalue="JUnit.UserDaoTest.testDelete" />
         <item itemvalue="JUnit.UserDaoTest.testUpdate" />
-        <item itemvalue="JUnit.UserDaoTest.testInsert" />
       </list>
     </recent_temporary>
   </component>
@@ -553,7 +553,7 @@
       <workItem from="1564370625921" duration="417000" />
       <workItem from="1564371071705" duration="551000" />
       <workItem from="1564371644326" duration="324000" />
-      <workItem from="1564371990880" duration="5343000" />
+      <workItem from="1564371990880" duration="7364000" />
     </task>
     <task id="LOCAL-00001" summary="20190726">
       <created>1564138279963</created>
@@ -604,25 +604,17 @@
       <option name="project" value="LOCAL" />
       <updated>1564382332857</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="20190729">
+      <created>1564382964921</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1564382964921</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserDaoTest_testInsert - 2019.07.29 at 14h 21m 59s.xml">
-      <configuration name="UserDaoTest.testInsert" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserDaoTest_testInsert - 2019.07.29 at 14h 22m 49s.xml">
-      <configuration name="UserDaoTest.testInsert" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserDaoTest_testInsert - 2019.07.29 at 14h 24m 16s.xml">
-      <configuration name="UserDaoTest.testInsert" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserDaoTest_testInsert - 2019.07.29 at 14h 25m 00s.xml">
-      <configuration name="UserDaoTest.testInsert" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserDaoTest_testUpdate - 2019.07.29 at 14h 30m 16s.xml">
-      <configuration name="UserDaoTest.testUpdate" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UserDaoTest_testUpdate - 2019.07.29 at 14h 30m 45s.xml">
       <configuration name="UserDaoTest.testUpdate" configurationId="JUnit" />
     </history-entry>
@@ -638,9 +630,24 @@
     <history-entry file="UserDaoTest_testFindAll - 2019.07.29 at 14h 45m 46s.xml">
       <configuration name="UserDaoTest.testFindAll" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UserDaoTest_testFindAll - 2019.07.29 at 14h 47m 40s.xml">
+      <configuration name="UserDaoTest.testFindAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDaoTest_testFindAll - 2019.07.29 at 15h 11m 19s.xml">
+      <configuration name="UserDaoTest.testFindAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDaoTest_testFindByIdAndPassword - 2019.07.29 at 15h 55m 41s.xml">
+      <configuration name="UserDaoTest.testFindByIdAndPassword" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDaoTest_testFindByIdAndPassword - 2019.07.29 at 15h 56m 56s.xml">
+      <configuration name="UserDaoTest.testFindByIdAndPassword" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDaoTest_testFindByIdAndPassword - 2019.07.29 at 15h 58m 14s.xml">
+      <configuration name="UserDaoTest.testFindByIdAndPassword" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21963000" />
+    <option name="totallyTimeSpent" value="23984000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -852,8 +859,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gxj/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+        <state relative-caret-position="458">
+          <caret line="26" column="80" selection-start-line="26" selection-start-column="80" selection-end-line="26" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/com/gxj/controller/test/UserDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="72" column="9" lean-forward="true" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -862,18 +879,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/com/gxj/controller/test/UserDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
-          <caret line="61" column="39" lean-forward="true" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="288">
+          <caret line="42" column="30" lean-forward="true" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
         </state>
       </provider>
     </entry>

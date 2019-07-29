@@ -69,4 +69,10 @@ public class UserDaoTest extends BaseJunit4Test {
         int res = userDao.deleteByName(name);
         System.out.println(res);
     }
+
+    @Test
+    public void testFindByIdAndPassword(){
+        List<User> users = userDao.findByNameAndPassword("bbb",null);
+        System.out.println(users);
+    }
 }
