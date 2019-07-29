@@ -3,14 +3,23 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.gxj.dao.UserDao">
 
+    <sql id="user_field">
+        ${prefix}.id as "id",
+        ${prefix}.name as "name",
+        ${prefix}.password as "password"
+    </sql>
+
+
     <select id="findAll" resultType="com.gxj.model.User">
         select
-        a.id as "id",
-        a.name as "name",
-        a.password as "password"
+        <include refid="user_field">
+            <property name="prefix" value="a"/>
+        </include>
         from user as a
     </select>
-    
+
+
+
     <select id="findById" parameterType="String" resultType="com.gxj.model.User">
         select * from user
         where id = #{id}
