@@ -39,6 +39,18 @@
     <select id="findByNameAndPassword" parameterType="String" resultType="com.gxj.model.User">
         select * from  user
         where 1 = 1
+
+        <choose>
+            <when test="name != null and name != ' '.toString() ">
+                and name = #{name}
+            </when>
+            <when test="password !=null and password != ' '.toString() ">
+                and password= #{password}
+            </when>
+            <otherwise>
+                order by id desc
+            </otherwise>
+        </choose>
         <if test="name != null and name != '' ">
             and name = #{name}
         </if>
