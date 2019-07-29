@@ -8,4 +8,14 @@ import java.util.List;
 @Repository
 public interface UserDao {
     List<User> findAll();
+
+    User findById(String id);
+
+    User findByName(String name);
+
+    int countByName(String name);
+
+    int insert(User user);
+
+    int update(User user);
 }
